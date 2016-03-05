@@ -4,15 +4,15 @@ package com.demo.model;
  * Created by PT116-ORACLE on 05/03/2016.
  */
 public class Product {
-    private String code;
+    private String id;
     private String producto;
 
-    public String getCode() {
-        return code;
+    public String getId() {
+        return id;
     }
 
-    public void setCode(String code) {
-        this.code = code;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getProducto() {
